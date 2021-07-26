@@ -1,0 +1,205 @@
+{
+	"siteVersion": "1.132.3",
+	"_meta": {
+		"sources": [{
+			"json": "GrusboysHomebrew",
+			"abbreviation": "GH",
+			"full": "Grusboys' Homebrew",
+			"url": "",
+			"authors": [
+				"Grusboys"
+			],
+			"convertedBy": []
+		}],
+		"dateAdded": 1627273531,
+		"dateLastModified": 1627273531
+	},
+	"race": [{
+		"name": "Evnir",
+		"source": "GrusboysHomebrew",
+		"size": [
+			"M"
+		],
+		"speed": {
+			"walk": 30
+		},
+		"ability": [{
+			"con": 2
+		}],
+		"darkvison": 60,
+		"skillProficiencies": [{
+			"nature": true
+		}],
+		"languageProficiencies": [{
+			"Common": true,
+			"Sylvan": true
+		}],
+
+		"entries": [{
+				"name": "Age",
+				"entries": [
+					"Evnir are all 'activated' at the same time and are considered adults at such time. They live on average of 200 years but can last as long as 600 years if meticulously maintained and upgraded."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Alignment",
+				"type": "entries",
+				"entries": [
+					" Most Evnir tend towards good or neutral alignments, wanting to integrate and blend into the societies of the people they meet with."
+				]
+			},
+			{
+				"name": "Size",
+				"type": "entries",
+				"entries": [
+					"Evnir range from 5-6 feet in height. Your size is Medium."
+				]
+			},
+			{
+				"name": "Speed",
+				"type": "entries",
+				"entries": [
+					"Your base walking speed is 30 feet. You sink in water as if your speed was 0 and you were falling."
+				]
+			},
+			{
+				"name": "A Machines's Toolkit",
+				"type": "entries",
+				"entries": [
+					"You gain proficiency with a set artisan's Tools of your choice."
+				]
+			},
+			{
+				"name": "Living Construct",
+				"type": "entries",
+				"entries": [
+					"Even though you were constructed, you are a living creature. Your creature type is both construct and humanoid. You are immune to diseases and being poisoned. You do not need to eat or breathe, but you can ingest food and drink if you wish. Instead of sleeping, an Evnir needs to wind the key that is in its back along with performing regular maintenance on their body this takes 4 hours each day. You are fully aware of your surroundings and notice approaching enemies and other events as normal. An Evnir can go a number of days without winding their key equal to their proficiency bonus, if they fail to wind their key after a number of days equal to their proficiency bonus then they fall unconscious until their key is wound back up. In addition, instead of a Wisdom (Medicine) check a Intelligence check or an Intelligence (Tinker's Tools) check is needed to stabilize you."
+				]
+			},
+			{
+				"name": "Flexible",
+				"type": "entries",
+				"entries": [
+					"You can take the Dodge action as a bonus action a number of times equal to your Dexterity modifier(minimum 1). You regain all expanded uses of this trait when you complete a long rest."
+				]
+
+			},
+			{
+				"name": "Sound of Gears",
+				"type": "entries",
+				"entries": [
+					"The subtle sound of moving gears, springs and other mechanical components surround you, causing you to have disadvantage on Dexterity (Stealth) checks."
+				]
+			},
+			{
+				"name": "Mendable",
+				"type": "entries",
+				"entries": [
+					"When the mending spell is cast on you and you have 0 hit points you become stable. Alternatively, as part of the casting of mending, the caster may expend one of their spell slots, causing you to regain a number of hit points equal to 1d8 + their spellcasting ability modifier; when this is done using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st."
+				]
+			},
+			{
+				"name": "Languages",
+				"type": "entries",
+				"entries": [
+					"You can speak, read, and write Common."
+				]
+			}
+		],
+		"subraces": [{
+				"name": "Mechanic",
+				"ability": [{
+					"con": 3
+				}],
+				"entries": [{
+						"name": "Creator",
+						"type": "entries",
+						"entries": [
+							"You have proficiency with Tinker's tools. Using those tools, you can spend 1 hour and 20gp worth of materials you can construct a Tiny clockwork device that serves a specific, simple function. They have an Armor Class of 6 and 2 hit points. The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time."
+						]
+					},
+					{
+						"type": "list",
+						"items": [
+							"{@bold Messenger} - These constructs are kept small to be discreet, allowing them to travel unseen and deliver messages to whomever they were assigned to without being noticed. The message they carry can either be vocal or written, depending on the situation and once the message is delivered, and the recipient confirms they heard it, it immediately returns to its creator. This device has a walking speed of 10 feet and a flying speed of 30 feet.",
+							"{@bold Delivery} - Usually made into the form of small animals or basic, bipedal machines with a compartment for holding whatever needs to be delivered. Once the parcel is received by its recipient it will return to its creator and it will only take a couple hours to reset it if a new destination is needed. It has no real means of defense only able to escape any attackers by its agility. This device has a walking speed of 40 feet and a +2 to all Dexterity saving throws."
+						]
+					}
+				]
+			}, {
+				"name": "Trader",
+				"ability": [{
+					"con": 2,
+					"cha": 1
+				}],
+				"entries": [{
+					"name": "A Way With Words",
+					"type": "entries",
+					"entries": [
+						"Whenever you make an Charisma (Persuasion) check attempting to barter, trade or engage in some other commerce based activity, you are considered proficient in the Persuasion skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+					]
+				}]
+			},
+			{
+				"name": "Soldier",
+				"ability": [{
+					"con": 2,
+					"str": 1
+				}],
+				"entries": [{
+					"name": "Silver Skinned",
+					"type": "entries",
+					"entries": [
+						"While unarmored, your Armor Class is equal to 13 + your Dexterity modifier. You can use a shield and still gain this benefit."
+					]
+				}]
+			},
+			{
+				"name": "Scholar",
+				"ability": [{
+					"con": 2,
+					"int": 1
+				}],
+				"entries": [{
+						"name": "Naturally Curious",
+						"type": "entries",
+						"entries": [
+							"You are proficient in the Investigation skill."
+						]
+					},
+					{
+						"name": "Keen Mind",
+						"type": "entries",
+						"entries": [
+							"You always know which way is North. You always know the number of hours left before the next sunrise or sunset. You can accurately recall anything you have seen or heard within the past month."
+						]
+					}
+				]
+			},
+			{
+				"name": "Pathfinder",
+				"ability": [{
+					"con": 2,
+					"dex": 1
+				}],
+				"entries": [{
+						"name": "Silent Running",
+						"type": "entries",
+						"entries": [
+							"Your internal make up runs quieter now. Your Dexterity (Stealth) checks are no longer done at a disadvantage."
+						]
+					},
+					{
+						"name": "Path Clearer",
+						"type": "entries",
+						"entries": [
+							"Difficult terrain doesn't slow your group's travel and you cannot become lost except by magical means."
+						]
+					}
+				]
+			}
+		]
+
+	}]
+}
