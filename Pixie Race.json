@@ -1,0 +1,113 @@
+{
+	"siteVersion": "1.132.3",
+	"_meta": {
+		"sources": [{
+			"json": "GrusboysHomebrew",
+			"abbreviation": "GH",
+			"full": "Grusboys' Homebrew",
+			"url": "",
+			"authors": [
+				"Grusboys"
+			],
+			"convertedBy": []
+		}],
+		"dateAdded": 1627273531,
+		"dateLastModified": 1627273531
+	},
+	"race": [{
+		"name": "Pixie",
+		"source": "GrusboysHomebrew",
+		"size": [
+			"T"
+		],
+		"speed": {
+			"walk": 15,
+			"fly": 30
+		},
+		"ability": [{
+			"dex": 2,
+			"cha": 1
+		}],
+		"darkvison": 60,
+		"skillProficiencies": [{
+			"nature": true
+		}],
+		"languageProficiencies": [{
+			"Common": true,
+			"Sylvan": true
+		}],
+
+		"entries": [{
+				"name": "Age",
+				"entries": [
+					"Pixies do not age as normal races do, like most fey, they live indefinitely or until killed. Pixies reach maturity at 20."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Alignment",
+				"type": "entries",
+				"entries": [
+					"Almost all pixies are good, with chaotic ideals of freedom. Simply having fun and enjoying life are typically at the forefront of their desires."
+				]
+			},
+			{
+				"name": "Size",
+				"type": "entries",
+				"entries": [
+					"Pixies are like tiny elves, standing at barely a foot tall. Your size is Tiny."
+				]
+			},
+			{
+				"name": "Flight",
+				"type": "entries",
+				"entries": [
+					"You have a flying speed of 30 feet. To use this speed, you can't be wearing heavy armor."
+				]
+			},
+			{
+				"name": "Size",
+				"type": "entries",
+				"entries": [
+					"Pixies are like tiny elves, standing at barely a foot tall. Your size is Tiny."
+				]
+			},
+			{
+				"name": "Darkvision",
+				"type": "entries",
+				"entries": [
+					"Living mostly outdoors without exposure to traditional lighting, you have superior vision in dark or dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+				]
+			},
+			{
+				"name": "Fey Ancestry",
+				
+				"entries": [
+					"You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+				]
+
+			},
+			{	
+				"name": "Nature's Child",
+				"type": "entries",
+				"entries": [
+					"The children of the Feywild have a natural gift for the outside world. You are proficient in the Nature skill and can cast the cantrip Druidcraft at will."
+				]
+			},
+			{
+				"name": "Wing Regrowth",
+				"type": "entries",
+				"entries": [
+					"If your wings are cut, removed or injured, you regrow them at the end of a long rest."
+				]
+			},
+			{
+				"name": "Languages",
+				"type": "entries",
+				"entries": [
+					"You can speak, read, and write Common and Sylvan."
+				]
+			}
+		]
+	}]
+}
